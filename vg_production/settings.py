@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Recipe_builder',
 ]
 
 MIDDLEWARE = [
@@ -78,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'vg_production_db',
         'USER': 'root',
-        'PASSWORD':'root',
+        'PASSWORD':'03bodori03',
         'HOST': 'localhost',
         'PORT': '3306',
     }
