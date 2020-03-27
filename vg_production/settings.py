@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'vg_production_db',
         'USER': 'root',
-        'PASSWORD':'03bodori03',
+        'PASSWORD':'root',
         'HOST': 'localhost',
         'PORT': '3306',
     }
