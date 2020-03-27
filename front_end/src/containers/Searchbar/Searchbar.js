@@ -6,8 +6,8 @@ class Searchbar extends React.Component {
         return(
             <nav className="navbar navbar-light bg-light fixed-top">
                 <form className="form-inline mx-auto">
-                    <input className="form-control mr-sm-2 border-warning shadow-none" type="search" placeholder="Search" aria-label="Search"></input>
-                    <button className="btn my-2 my-sm-0 btn-outline-warning" type="submit">Search</button>
+                    <input className="form-control m-auto border-warning shadow-none searchbar" type="search" placeholder="Search" aria-label="Search"></input>
+                    <button className="btn my-2 my-sm-0 ml-2 btn-outline-warning" type="submit">Search</button>
                 </form>
                 <div className="btn-group btn-group-toggle" data-toggle="buttons">
                     <label className="btn btn-warning active">By Recipe
