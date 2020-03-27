@@ -19,6 +19,6 @@ class Searchbar extends React.Component {
                 </div>
             </nav>
         );
-    }
+    };
 }
 export default Searchbar;
