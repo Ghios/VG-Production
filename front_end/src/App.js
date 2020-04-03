@@ -23,7 +23,7 @@ function App({ t }) {
         { /* there you can see 't' func to load locales from 'locales' folder
         you also can write your own localization at file 'translation.json'
         at en or ua folders -->*/}
-          {t("Welcome to React")}
+          {t("welcomeMessadge")}
         </p>
 
         <a
@@ -32,7 +32,7 @@ function App({ t }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {t("Learn React button")}
+          {t("learnReactButton")}
         </a>
       </header>
     </div>
