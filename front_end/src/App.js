@@ -23,7 +23,7 @@ function App({ t }) {
         { /* there you can see 't' func to load locales from 'locales' folder
         you also can write your own localization at file 'translation.json'
         at en or ua folders -->*/}
-          {t("welcomeMessadge")}
+          {t("welcomeMessage")}
         </p>
 
         <a
