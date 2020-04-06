@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'vg_production.recipe_builder',
+    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -79,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'vg_production_db',
         'USER': 'root',
-        'PASSWORD':'root',
+        'PASSWORD':'',
         'HOST': 'localhost',
         'PORT': '3306',
     }
